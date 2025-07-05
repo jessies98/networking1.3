@@ -48,11 +48,11 @@ Switch Connections and VLAN Setup:
 -	Switch 2 will be configured with:
     -	VLAN 10 for ports F0/1–F0/11
     -	VLAN 20 for ports F0/12–F0/24
-•	Switch 3 will be configured with:
+-	Switch 3 will be configured with:
     -	VLAN 30 for ports F0/1–F0/11
     -	VLAN 40 for ports F0/12–F0/24
-•	Each PC will be assigned to the appropriate VLAN based on its physical port and department.
-•	Switch 1 will also be configured with VLANs 10 and 20, using a different subnet than Switch 2. It will connect to internal servers, each assigned to a separate VLAN.
+-	Each PC will be assigned to the appropriate VLAN based on its physical port and department.
+-	Switch 1 will also be configured with VLANs 10 and 20, using a different subnet than Switch 2. It will connect to internal servers, each assigned to a separate VLAN.
 <img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
