@@ -74,10 +74,10 @@ After bringing the router interfaces online, I proceeded to assign the appropria
 <br />
 <br />
 Next, I configured the switches to support VLAN segmentation and trunking.
-•	Switch 1 was divided into VLAN 10 and VLAN 20, with ports F0/1–F0/11 assigned to VLAN 10 and F0/12–F0/24 assigned to VLAN 20.
-•	Switches 2 and 3 had their Gigabit ports configured as trunk ports to allow VLAN traffic to pass between switches.
-•	Switch 2 was also configured with VLAN 10 and VLAN 20 using the same port ranges: F0/1–F0/11 for VLAN 10 and F0/12–F0/24 for VLAN 20.
-•	Switch 3 was configured with VLAN 30 on ports F0/1–F0/11 and VLAN 40 on ports F0/12–F0/24.
+-	Switch 1 was divided into VLAN 10 and VLAN 20, with ports F0/1–F0/11 assigned to VLAN 10 and F0/12–F0/24 assigned to VLAN 20.
+-	Switches 2 and 3 had their Gigabit ports configured as trunk ports to allow VLAN traffic to pass between switches.
+-	Switch 2 was also configured with VLAN 10 and VLAN 20 using the same port ranges: F0/1–F0/11 for VLAN 10 and F0/12–F0/24 for VLAN 20.
+-	Switch 3 was configured with VLAN 30 on ports F0/1–F0/11 and VLAN 40 on ports F0/12–F0/24.
   <br/>
 <img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture11.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture12.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
