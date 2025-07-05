@@ -37,18 +37,20 @@ Next we will add serial ports to all router before wiring the network <br/>
 <br />
 <br />
 Next, we will begin wiring the network, starting with the routers. Serial cables will be used to connect the routers, with interface S1/0/1 designated as the clock rate interface for synchronous communication.
+
 Router and Switch Connections:
-•	Router 1 will connect to both Router 2 and Router 3 via serial interfaces. It will also connect to the ISP through G0/0/0, and to a wireless access point using G0/0/1.
-•	Router 2 will connect to Router 1 and Router 3 via serial interfaces, and will be linked to Switch 1 through its Gigabit Ethernet port.
-•	Router 3 will connect to Router 1 and Router 2 via serial interfaces, and will also be connected to Switch 2 via G0/0/0.
+
+-	Router 1 will connect to both Router 2 and Router 3 via serial interfaces. It will also connect to the ISP through G0/0/0, and to a wireless access point using G0/0/1.
+-	Router 2 will connect to Router 1 and Router 3 via serial interfaces, and will be linked to Switch 1 through its Gigabit Ethernet port.
+-	Router 3 will connect to Router 1 and Router 2 via serial interfaces, and will also be connected to Switch 2 via G0/0/0.
 Switch Connections and VLAN Setup:
-•	Switch 2 and Switch 3 will be connected using a trunk link to allow multiple VLANs to pass between them.
-•	Switch 2 will be configured with:
-o	VLAN 10 for ports F0/1–F0/11
-o	VLAN 20 for ports F0/12–F0/24
+-	Switch 2 and Switch 3 will be connected using a trunk link to allow multiple VLANs to pass between them.
+-	Switch 2 will be configured with:
+    -	VLAN 10 for ports F0/1–F0/11
+    -	VLAN 20 for ports F0/12–F0/24
 •	Switch 3 will be configured with:
-o	VLAN 30 for ports F0/1–F0/11
-o	VLAN 40 for ports F0/12–F0/24
+    -	VLAN 30 for ports F0/1–F0/11
+    -	VLAN 40 for ports F0/12–F0/24
 •	Each PC will be assigned to the appropriate VLAN based on its physical port and department.
 •	Switch 1 will also be configured with VLANs 10 and 20, using a different subnet than Switch 2. It will connect to internal servers, each assigned to a separate VLAN.
 <img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -57,10 +59,11 @@ o	VLAN 40 for ports F0/12–F0/24
 <br />
 Now it's time to configure the routers and bring all interfaces online. Each router’s serial interface (S1/0/1) will be configured with a clock rate of 500,000 to support synchronous communication on point-to-point WAN links.
 To efficiently assign IP addresses across the network, we are implementing Variable Length Subnet Masking (VLSM). This allows us to allocate IP space based on the size and needs of each subnet:
-•	/30 subnet: Used for point-to-point links for our routers, providing 4 total IPs and 2 usable addresses.
-•	/29 subnet: Provides 8 total IPs and 6 usable addresses 
-•	/28 subnet: Offers 16 total IPs with 14 usable addresses 
-•	/25 subnet: Provides 128 total IPs and 126 usable addresses   <br/>
+
+-	/30 subnet: Used for point-to-point links for our routers, providing 4 total IPs and 2 usable addresses.
+-	/29 subnet: Provides 8 total IPs and 6 usable addresses 
+-	/28 subnet: Offers 16 total IPs with 14 usable addresses 
+-	/25 subnet: Provides 128 total IPs and 126 usable addresses   <br/>
 <img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
