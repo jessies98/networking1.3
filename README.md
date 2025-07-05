@@ -20,20 +20,20 @@ Key Features and Technologies:
 -	Wireless access point deployed and connected to Router 1 to provide Wi-Fi connectivity for mobile devices.
 -	End-to-end testing was performed using ping to verify full connectivity from local PCs and servers to the ISP server and external resources.
 
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/networking1.3/blob/main/images/Picture1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br />
 <h2>Project walk-through:</h2>
 Starting off the project, we are provided an internet connection that simulates an ISP. Server.com is the ISP server with an address of 11.1.1.10/24
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture2.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture2.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Next, we will set up the physical layout of the network equipment. A network rack will hold three routers, three switches, two server, and a wireless router with a phone connected to the access point. while a nearby workstation table will include four computers for end-user access and testing. <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Next we will add serial ports to all router before wiring the network <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Next, we will begin wiring the network, starting with the routers. Serial cables will be used to connect the routers, with interface S1/0/1 designated as the clock rate interface for synchronous communication.
@@ -51,8 +51,8 @@ o	VLAN 30 for ports F0/1–F0/11
 o	VLAN 40 for ports F0/12–F0/24
 •	Each PC will be assigned to the appropriate VLAN based on its physical port and department.
 •	Switch 1 will also be configured with VLANs 10 and 20, using a different subnet than Switch 2. It will connect to internal servers, each assigned to a separate VLAN.
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
 Now it's time to configure the routers and bring all interfaces online. Each router’s serial interface (S1/0/1) will be configured with a clock rate of 500,000 to support synchronous communication on point-to-point WAN links.
@@ -61,13 +61,13 @@ To efficiently assign IP addresses across the network, we are implementing Varia
 •	/29 subnet: Provides 8 total IPs and 6 usable addresses 
 •	/28 subnet: Offers 16 total IPs with 14 usable addresses 
 •	/25 subnet: Provides 128 total IPs and 126 usable addresses   <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
 After bringing the router interfaces online, I proceeded to assign the appropriate IP addresses to each router interface. <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture10.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Next, I configured the switches to support VLAN segmentation and trunking.
@@ -76,16 +76,16 @@ Next, I configured the switches to support VLAN segmentation and trunking.
 •	Switch 2 was also configured with VLAN 10 and VLAN 20 using the same port ranges: F0/1–F0/11 for VLAN 10 and F0/12–F0/24 for VLAN 20.
 •	Switch 3 was configured with VLAN 30 on ports F0/1–F0/11 and VLAN 40 on ports F0/12–F0/24.
   <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture11.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture12.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture13.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 I configured DHCP on Router 3 to automatically assign IP addresses to all connected computers within its network segment. Additionally, DHCP was set up on Router 1 to provide dynamic IP address allocation for devices on its side of the network. The DNS server used by all clients is located on the ISP server at IP address 11.1.1.10. After configuration, all computers successfully received IP addresses via DHCP.<br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture14.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture15.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture16.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture17.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Static IP addresses were manually assigned to all servers to ensure consistent identification, stable connectivity, and reliable access to network services.
