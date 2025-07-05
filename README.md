@@ -90,36 +90,36 @@ I configured DHCP on Router 3 to automatically assign IP addresses to all connec
 <br />
 Static IP addresses were manually assigned to all servers to ensure consistent identification, stable connectivity, and reliable access to network services.
 <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture10.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture11.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture18.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture19.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 RIPv2 was selected as the routing protocol for all routers to enable dynamic route exchange and maintain up-to-date routing tables across the entire network.     
 <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture13.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture14.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture15.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture20.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture21.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture22.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
 Next, we set up the wireless router by accessing its web-based GUI through a smartphone to complete the configuration.  
 <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture19.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture20.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture23.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture24.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 A connectivity test was performed from the smartphone to the ISP server to verify that the wireless router was properly connected to the network and providing internet access. 
 <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture19.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture25.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Lastly, we performed a connectivity test from all computers and servers to verify successful communication with the ISP server at IP address 11.1.1.10. We also confirmed internal network functionality by testing communication between the computers and the locally hosted server.  
 <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture19.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture20.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture26.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture27.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 A connectivity test was performed to verify communication between the client devices and the internal servers.
 <br/>
-<img src="https://github.com/jessies98/Networking1.2/blob/main/images/Picture19.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/jessies98/Networking1.3/blob/main/images/Picture28.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
